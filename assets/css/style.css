@@ -1,0 +1,94 @@
+:root{
+    --myColor :#ff206e;
+}
+.main-color{
+    color:var(--myColor);
+}
+header {
+    background-image: url('../img/me.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+nav{
+    font-size: 15px;
+}
+.social-media i {
+     padding:10px;
+    border-radius: 50%;
+    border:1px solid  #6c757d;
+    transition: all 1s;
+}
+.social-media i:hover{
+    color: var(--myColor);
+    border-color: white;
+}
+.title h2{
+    font-size: 70px;
+    color: #f1f1f1;;   
+}
+.title h3{
+    font-size: 40px;   
+    position: absolute;
+
+/* we can use this  */
+    /*
+     top:0;
+    left:50%;
+    transform: translate(-50%,50%);
+      */
+/* or we can use this and give h3 a translate-middle instead of transform */
+    top:50%;
+    left:50%;
+  }
+
+.about-content .description{
+    width:75%;
+}
+
+.services{
+    background-image: url('../img/dark_dot.jpg');
+}
+.services .services-title h2{
+    font-size: 70px;   
+    color: #222;;   
+}
+.services .services-title h3{
+    font-size: 40px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+}
+.item i {
+    font-size: 20px;
+    padding:20px;
+    color:white;
+    border-radius: 50%;
+    background-color:black;
+    border: 1px solid white;
+    transition: all 1s;
+}
+.item i:hover{
+    color: var(--myColor);
+}
+.item .line{
+    width:30px;
+    display: block;
+    border-bottom:1px solid #ff206e;
+    margin: auto;
+}
+
+.portfolio .title h2{
+    font-size: 70px;   
+    color:#f1f1f1;   
+}
+.portfolio .title h3{
+    font-size: 40px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+}
+
+.nav-tabs  .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color:var(--myColor);
+    background-color: #fff;
+}
