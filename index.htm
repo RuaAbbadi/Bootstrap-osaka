@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- bootstrap js -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
     <!-- bootstrap css -->
     <link  rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <!-- fontasome 6 -->
@@ -15,6 +13,20 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+    <!-- color change  -->
+    <div class="color-box">
+      <div class="color-options">
+        <h3>Colors</h3>
+        <ul class="list-unstyled">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-gear"></i>
+    </div>
     <!-- #### start of header #### -->
     <header class="d-flex align-items-center vh-100 bg-dark">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -54,9 +66,9 @@
             </div>
           </nav>
           <div class="caption text-white ms-5 ps-5 ">
-              <h1 class="text-uppercase fw-bold">robin steel</h1>
+              <h1 class="text-uppercase fw-bold change">robin steel</h1>
               <p class="text-capitalize my-3">developer, graphics & web design</p>
-              <a href="#" class="text-uppercase main-color text-decoration-none "> view portfolio</a>
+              <a href="#" class="text-uppercase main-color text-decoration-none change "> view portfolio</a>
               
               <div class="social-media my-4 d-flex justify-content-between">
                 <i class="fa-brands fa-facebook"></i>
@@ -72,7 +84,7 @@
     <section class="about py-5">
       <div class="title text-center position-relative">
         <h2 class="text-capitalize fw-bold">about</h2>
-        <h3 class="text-capitalize translate-middle">about</h3>
+        <h3 class="text-capitalize translate-middle change">about</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
       </div>
        <div class="container">
@@ -99,7 +111,7 @@
     <section class="services py-5 text-center">
       <div class="services-title text-center position-relative">
         <h2 class="text-capitalize fw-bold">services</h2>
-        <h3 class="text-capitalize translate-middle text-white">services</h3>
+        <h3 class="text-capitalize translate-middle change">services</h3>
       </div>
       <p class="text-muted text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 
@@ -162,7 +174,7 @@
     <section class="portfolio py-5  text-center">
       <div class="title position-relative">
         <h2 class="text-uppercase fw-bold">portfolio</h2>
-        <h3 class="text-uppercase translate-middle text-black">portfolio</h3>
+        <h3 class="text-uppercase translate-middle change">portfolio</h3>
       </div>
       <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
       <ul class="nav nav-tabs d-flex justify-content-center " id="myTab" role="tablist">
@@ -231,5 +243,12 @@
       </div>
     </section>
     <!-- end section portfolio -->
+
+    <!-- jQuery -->
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <!-- bootstrap js 5  -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- my script -->
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

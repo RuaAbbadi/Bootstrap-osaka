@@ -4,6 +4,32 @@
 .main-color{
     color:var(--myColor);
 }
+
+.color-box{
+    position: fixed;
+    top:100px;
+    left:0;
+    display: flex;
+}
+.color-box  .color-options h3{
+    font-size: 20px;
+}
+.color-options li {
+    width:25px;
+    height:25px;
+    display: inline-block;
+}
+.color-box .color-options{
+    background-color: #fff;
+    padding:10px;
+    border:1px solid black;
+}
+.color-box i{
+    border:1px solid black;
+    background-color: #fff;
+    padding:10px;
+    height: fit-content;
+}
 header {
     background-image: url('../img/me.jpg');
     background-position: center center;
