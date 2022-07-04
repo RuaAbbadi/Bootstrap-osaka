@@ -13,6 +13,26 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+
+    <div class="loading justify-content-center align-items-center">
+      <div class="sk-circle">
+        <div class="sk-circle1 sk-child"></div>
+        <div class="sk-circle2 sk-child"></div>
+        <div class="sk-circle3 sk-child"></div>
+        <div class="sk-circle4 sk-child"></div>
+        <div class="sk-circle5 sk-child"></div>
+        <div class="sk-circle6 sk-child"></div>
+        <div class="sk-circle7 sk-child"></div>
+        <div class="sk-circle8 sk-child"></div>
+        <div class="sk-circle9 sk-child"></div>
+        <div class="sk-circle10 sk-child"></div>
+        <div class="sk-circle11 sk-child"></div>
+        <div class="sk-circle12 sk-child"></div>
+      </div>
+    </div>
+    <button id="btnUp" class="btn btn-secondary rounded-circle">
+      <i class="fa-solid fa-circle-arrow-up"></i>
+    </button>
     <!-- color change  -->
     <div class="color-box">
       <div class="color-options">
@@ -28,7 +48,7 @@
       <i class="fa-solid fa-gear"></i>
     </div>
     <!-- #### start of header #### -->
-    <header class="d-flex align-items-center vh-100 bg-dark">
+    <header class="d-flex align-items-center vh-100 bg-dark" id="">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container-fluid">
               <a class="navbar-brand text-uppercase text-white" href="#">osaka</a>
@@ -38,16 +58,16 @@
               <div class="collapse navbar-collapse"  id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active text-uppercase text-white" aria-current="page" href="#">home</a>
+                    <a class="nav-link active text-uppercase text-white" aria-current="page" href="#home">home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-uppercase text-white" href="#">about</a>
+                    <a class="nav-link text-uppercase text-white" href="#about">about</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-uppercase text-white" href="#">services</a>
+                    <a class="nav-link text-uppercase text-white" href="#services">services</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-uppercase text-white" href="#">portfolio</a>
+                    <a class="nav-link text-uppercase text-white" href="#portfolio">portfolio</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link text-uppercase text-white" href="#">price</a>
@@ -81,7 +101,7 @@
     <!-- end of header -->
 
     <!-- #### start of about #### -->
-    <section class="about py-5">
+    <section class="about py-5" id="about">
       <div class="title text-center position-relative">
         <h2 class="text-capitalize fw-bold">about</h2>
         <h3 class="text-capitalize translate-middle change">about</h3>
@@ -108,7 +128,7 @@
     <!-- end of about -->
 
     <!-- #### start of services #### -->
-    <section class="services py-5 text-center">
+    <section class="services py-5 text-center" id="services">
       <div class="services-title text-center position-relative">
         <h2 class="text-capitalize fw-bold">services</h2>
         <h3 class="text-capitalize translate-middle change">services</h3>
@@ -171,7 +191,7 @@
     <!-- end of services -->
 
     <!-- #### start section portfolio #### -->
-    <section class="portfolio py-5  text-center">
+    <section class="portfolio py-5  text-center" id="portfolio">
       <div class="title position-relative">
         <h2 class="text-uppercase fw-bold">portfolio</h2>
         <h3 class="text-uppercase translate-middle change">portfolio</h3>
